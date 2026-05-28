@@ -1,0 +1,33 @@
+@media(max-width: 1000px){
+    .Show_text{
+        opacity: 0;
+        position: absolute;
+        height: 0;
+    }
+}
+@media(max-width: 600px){
+    .head_links{
+        width: 45%;
+    }
+    .text_info_small{
+        opacity: 0;
+        position: absolute;
+        height: 0;
+    }
+    .card_text{
+        opacity: 0;
+        position: absolute;
+        height: 0;
+    }
+    .our_net{
+        opacity: 0;
+        position: absolute;
+        height: 0;
+    }
+   .ft-name{
+    padding-right: 10vw;
+   }
+    .card_img{
+        height: 40% !important;
+    }
+}

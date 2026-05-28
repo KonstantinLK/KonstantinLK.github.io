@@ -1,0 +1,10 @@
+@keyframes connect{
+    from { opacity: 0; transform: translateY(32px); }
+    to { opacity: 1; transform: translateY(0px); }
+}
+
+.anim{
+    opacity: 0;
+    transform: translateY(32px);
+    animation: connect 2s ease both;
+}

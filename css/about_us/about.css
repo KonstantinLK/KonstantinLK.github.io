@@ -1,0 +1,58 @@
+@import "../util.css";
+@import "../header_footer.css";
+@import "../about_us/about_adap.css";
+
+body{
+    background: linear-gradient(rgb(30, 30, 30), rgb(36, 36, 36));
+}
+.per-sec{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+.admin{
+    padding-top: 10vh;
+}
+.prof-name{
+    font-size: clamp(1.5rem, 2.5vw, 3rem);
+    color: #ca8e46;
+}
+.cont{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    height: 70%;
+}
+.per-list{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    width: 35%;
+}
+.person{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+.per-img{
+    height: calc(5vh + 3vw);
+    width: calc(5vh + 3vw);
+    border-radius: 5px;
+}
+.per-name{
+    font-size: clamp(1rem, 2.5vw, 2rem);
+}
+.per-opis{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+   font-size: clamp(0.75rem, 2.5vw, 1.25rem);
+}
+

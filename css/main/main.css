@@ -1,0 +1,96 @@
+@import "../anim.css";
+@import "../util.css";
+@import "../main/adapt_main.css";
+@import "../header_footer.css";
+
+body{
+    margin: 0;
+}
+
+
+.face_sec{
+    height: 100vh;
+    background-image: url(../img/fon3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.main_text{
+    font-size: clamp(2rem, 5vw, 5rem);
+    font-family: 'Allura', cursive;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 5px;
+    width: fit-content;
+    margin: 0;
+
+
+}
+.post_text{
+    font-size: clamp(1rem, 2.5vw, 2rem);
+    padding-bottom: 2vh;
+}
+
+
+
+.cards_sec{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70vh;
+    background: linear-gradient(rgb(15, 15, 15), rgb(30, 30, 30));
+    width: 100%;
+}
+.card_img{
+    width: 100%;
+    height: 60%;
+}
+.card_name{
+    color: #ca8e46;
+    letter-spacing: 3px;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
+    font-weight: 600;
+}
+.card_text{
+    margin: 0;
+}
+.card_link{
+    color: white;
+    width: fit-content;
+    text-decoration: none;
+    border-bottom: 2px solid #ca8e46;
+    font-size: clamp(0.75rem, 2.5vw, 1.1rem);
+}
+
+
+
+.info{
+    background-image: url(../img/fon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    display: flex;
+    width: 100%;
+}
+.halfinfo{
+    width: 50%;
+    height: 100%;
+}
+.info_name{
+    font-size: clamp(1.5rem, 2.5vw, 3rem);
+    color: #ca8e46;
+}
+.info_text{
+    width: clamp(80%,2.5vw, 60%) ;
+}
+.info_text_block{
+    background: linear-gradient(rgb(30, 30, 30), rgb(36, 36, 36));
+}
+
+
+

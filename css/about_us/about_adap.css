@@ -1,0 +1,11 @@
+@media(max-width: 800px){
+    .per-sec{
+        height: 100vh !important;
+    }
+}
+@media(max-width: 455px){
+    .person{
+        height: fit-content !important;
+    }
+    
+}

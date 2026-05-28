@@ -1,0 +1,71 @@
+@import "../util.css";
+@import "../header_footer.css";
+
+.food-sec{
+    display: flex;
+    height: 60vh;
+}
+.meat_food{
+    padding-top: 10vh;
+}
+.bg-menu{
+    width: 25%;
+    height: 100%;
+}
+.fd-menu{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(30, 30, 30);
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    height: 50%;
+}
+.menu-item{
+    display: flex;
+    width: 20vw;
+    justify-content: space-between;
+}
+.menu-right{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.menu-left{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.food_name{
+    font-size: clamp(1rem, 2.5vw, 1.25rem);
+}
+.food-prise{
+    font-size: clamp(1rem, 2.5vw, 1.25rem);
+}
+
+ /*.drinks{
+    background-image: url(../img/Cocktail-juice-drinks-black-background_1280x1024.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+.dr-menu{
+    background-image: url(../img/seamless-pattern-with-hand-drawn-elements-cocktails-white-background-vector-illlustration_202007-367.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.veg_food{
+    background-image: url(../img/1644504143_1-abrakadabra-fun-p-ovoshchi-na-temnom-fone-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.meat_food{
+    background-image: url(../img/top-view-meat-concept-with-copy-space.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10vh;
+}
